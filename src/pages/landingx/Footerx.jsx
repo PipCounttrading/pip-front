@@ -71,8 +71,8 @@ const Footer = () => {
           <div className="px-5 py-12 mx-auto max-w-7xl lg:py-16 md:px-12 lg:px-20 default_cursor_cs">
             <div className="xl:grid xl:grid-cols-3 xl:gap-8 default_cursor_cs">
               <div className="space-y-8 xl:col-span-1">
-                <span className="flex items-center w-28 lg:w-36 rounded-md text-secondary justify-center mb-6">
-                 <Icon/>
+                <span className="flex items-center bg-blgack p-0 w-28 lg:w-36 rounded-xl justify-center mb-6">
+                  <Icon />
                 </span>
                 <p className="w-1/2 mt-2 text-sm text-whtie">
                   We have licenses provide to services Worldwide.
@@ -199,7 +199,7 @@ const Footer = () => {
                               value="Subscribe"
                               name="member[subscribe]"
                               id="member_submit"
-                              className="block w-full px-5 py-3 text-base font-medium text-white bg-blue-600 border border-transparent rounded-lg shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300 sm:px-10"
+                              className="block w-full px-5 py-3 text-base font-medium text-white bg-[#fa573b] border border-transparent rounded-lg shadow hover:bg-[#f26850] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300 sm:px-10"
                             >
                               Notify me
                             </button>
@@ -218,10 +218,10 @@ const Footer = () => {
                 Copyright ©
                 <Link
                   to="https://wickedlabs.dev"
-                  className="mx-2 text-blue-500 hover:text-white"
+                  className="mx-2 text-[#FC5C40] hover:text-white"
                   rel="noopener noreferrer"
                 >
-                  Octatrade.net
+                  Whitebullsafety.org
                 </Link>
                 . Since 2014
               </span>

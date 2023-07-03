@@ -21,12 +21,12 @@ const Nav = () => {
         style={{ background: "rgba(22, 22, 26, 0.7)" }}
       >
         <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <Icon />
+          <Icon />
           <div className="hidden md:flex md:order-2">
             <Link to="/public/register" className="">
               <button
                 type="button"
-                className="text-black font-semibold bg-[#89a3e3] tracking-wide rounded-lg text-xs px-5 py-3 text-center mr-3 md:mr-0 hover:bg-[#a2b7eb] focus:bg-[#89a3e3]"
+                className="text-black font-semibold bg-[#FC5C40] tracking-wide rounded-lg text-xs px-5 py-3 text-center mr-3 md:mr-0 hover:bg-[#f6765f] focus:bg-[#FC5C40]"
               >
                 CREATE ACCOUNT
               </button>
@@ -78,14 +78,14 @@ const Nav = () => {
                   Markets
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="/user/T&C"
                   className="block py-2 pr-4 pl-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Terms
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

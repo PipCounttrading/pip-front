@@ -3,9 +3,12 @@ module.exports = {
   theme: {
     extend: {
       strokeWidth: {
-        '5': '5px',
+        5: "5px",
+      },
+      fontFamily: {
+        yester: ["Yesteryear", "cursive"],
       },
     },
   },
-    plugins: [require("daisyui")],
-}
+  plugins: [require("daisyui")],
+};

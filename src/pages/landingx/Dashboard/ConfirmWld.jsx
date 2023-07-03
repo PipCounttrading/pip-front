@@ -57,17 +57,14 @@ const ConfirmWld = () => {
     //   return notify('Insufficient balance');
     // }
 
-    const response = await fetch(
-      "https://zany-gold-perch-sock.cyclic.app/withdraw",
-      {
-        method: "post",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          email,
-          withdrawal: withdrawal.amount,
-        }),
-      }
-    );
+    const response = await fetch("https://lucky-cape-fox.cyclic.app/withdraw", {
+      method: "post",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email,
+        withdrawal: withdrawal.amount,
+      }),
+    });
 
     let result = await response.json();
 

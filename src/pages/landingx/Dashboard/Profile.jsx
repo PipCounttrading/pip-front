@@ -56,7 +56,7 @@ const Profile = () => {
     const { email, name, btc, phone } = user;
 
     const iseditUser = await fetch(
-      "https://zany-gold-perch-sock.cyclic.app/users/:id",
+      "https://lucky-cape-fox.cyclic.app/users/:id",
       {
         method: "put",
         headers: { "Content-Type": "application/json" },
@@ -236,10 +236,13 @@ const Profile = () => {
                   fund.
                 </p>
               </span>
-              <button className="px-3 py-1.5 md:py-2.5 text-xs bg-yellow-500 text-white font-medium  rounded uppercase mt-6 md:mt-0">
+              <Link
+                to="/user/add-account"
+                className="px-3 py-1.5 md:py-2.5 text-xs bg-yellow-500 text-white font-medium  rounded uppercase mt-6 md:mt-0"
+              >
                 {" "}
                 Add account
-              </button>
+              </Link>
             </div>
           </div>
         </div>

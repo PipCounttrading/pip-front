@@ -5,14 +5,14 @@ const WhiteIcon = () => {
     <>
       <Link
         to="/"
-        className="rounded-xl shadow-md w-32 boerder-red-600 border-2 bg-black pointer py-2 relative px- flex justify-center text-whidte updpercase m-3 font-bold text-white items-center text-[18px]"
+        className="rounded-xl shadow-md w-40 boerder-red-600 border-2 bg-black pointer py-2 relative px- flex flex-col justify-center text-xs text-whidte updpercase m-3 font-bold text-white items-center text-[18px]"
       >
-        Octa
-        <span className="text-sm ml- rounded bg-red-600 px-1 font-extrabold font-mono text-black">
-          trade
+        <span className="text-sm ">PIPCOUNT</span>
+        <span className="font-bold mt-d1 uppercase tracking-wider bg-[#FC5C40] px-5 rounded-md py-1">
+          Trading
         </span>
         <span
-          className=" text-whitd bdg-white absolute right-1.5 pt-1 top-0.5"
+          className=" text-white bdg-white absolute right-5 pt-2 top-1"
           style={{ fodntSize: "3px" }}
         >
           <TbTrademark />
